@@ -106,7 +106,30 @@
     
     public static int digitpro(int n)
     {
-        if(n==0) return 1;
+        if(n%10==n) return n;//agr end mein single digit hai sirf n toh bs whi return ho jaye aur multiply hojaye
         return digitpro(n/10)*(n%10);
     }
 }*/
+
+//ques 9:Concept of --n
+/*class Main{
+    public static void main(String args[])
+    {
+        printn(6);
+    }
+    
+    public static void printn(int n)
+    {
+        if(n==0) return;
+        System.out.println(n);
+        printn(n--);// will print 6 infinte times
+       // printn(--n); will print 6 5 4 3 2 1
+    }
+}*/
+
+
+
+
+
+
+
