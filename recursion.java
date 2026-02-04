@@ -56,3 +56,16 @@
         Nto1(n-1);
     }
 }*/
+
+//ques5:factorial of number
+/*class Main {
+    public static void main(String[] args) {
+       System.out.print(factorial(8));
+    }
+    
+    public static int factorial(int n)
+    {
+        if(n==0) return 1;
+        return n*factorial(n-1);
+    }
+}*/
