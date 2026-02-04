@@ -96,3 +96,17 @@
         return (n%10)+digitsum(n/10);
     }
 }*/
+
+//ques 8:product of all digits
+/*class Main{
+    public static void main(String args[])
+    {
+        System.out.println(digitpro(1342));
+    }
+    
+    public static int digitpro(int n)
+    {
+        if(n==0) return 1;
+        return digitpro(n/10)*(n%10);
+    }
+}*/
