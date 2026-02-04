@@ -42,3 +42,17 @@
         else  return binarySearch(arr,target,mid+1,end);
     }
 }*/
+
+//ques4: print from n to 1
+/*class Main {
+    public static void main(String[] args) {
+       Nto1(5);
+    }
+    
+    public static void Nto1(int n)
+    {
+        if(n==0) return;
+        System.out.println(n);
+        Nto1(n-1);
+    }
+}*/
