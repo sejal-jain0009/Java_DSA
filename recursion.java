@@ -43,6 +43,7 @@
     }
 }*/
 
+//part 2
 //ques4: print from n to 1
 /*class Main {
     public static void main(String[] args) {
@@ -67,5 +68,18 @@
     {
         if(n==0) return 1;
         return n*factorial(n-1);
+    }
+}*/
+
+//ques6:sum of n number
+/*class Main {
+    public static void main(String[] args) {
+       System.out.print(sum(5));
+    }
+    
+    public static int sum(int n)
+    {
+        if(n==0) return 0;
+        return n+sum(n-1);
     }
 }*/
