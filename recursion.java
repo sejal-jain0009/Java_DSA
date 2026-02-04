@@ -1,3 +1,4 @@
+//part 1
 //ques 1 : print 1 to 4
 /*class recursion{ {
     public static void main(String[] args) {
@@ -24,3 +25,20 @@
     }
 }*/
 
+//ques3: binary search using recursion
+/*class Main {
+    public static void main(String[] args) {
+       int[] arr={1,2,4,66,77,8,99,57,43};
+       int target=66;
+       System.out.println(binarySearch(arr,target,0,arr.length-1));
+    }
+    
+    public static int binarySearch(int[] arr,int target,int start,int end)
+    {
+        if(start>end) return -1;
+        int mid=start+(end-start)/2;
+        if(arr[mid]==target) return mid;
+        if(arr[mid]>target) return binarySearch(arr,target,start,mid-1);
+        else  return binarySearch(arr,target,mid+1,end);
+    }
+}*/
