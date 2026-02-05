@@ -199,6 +199,7 @@
         return helper(n,0);
     }
     
+    //special pattern, how to pass value to other calls
     public static int helper(int n,int c)
     {
         if(n==0) return c;
