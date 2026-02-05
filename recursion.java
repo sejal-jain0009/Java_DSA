@@ -247,6 +247,21 @@
     }
 }*/
 
+//ques 15. finding index
+/*class Main {
+    public static int findindex(int arr[],int target,int index)
+    {
+        if(index==arr.length) return -1;
+        if(arr[index]==target) return index;
+        return (findindex(arr,target,index+1));
+    }
+    
+    public static void main(String[] args) {
+        int[] arr={1,2,3,4,8,6,7};
+        System.out.print(findindex(arr,7,0));
+    }
+}*/
+
 
 
 
