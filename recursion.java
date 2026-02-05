@@ -127,7 +127,7 @@
     }
 }*/
 
-//ques 10:reverse a number - method 1
+//ques 10: a.) reverse a number - method 1
 /*class Main{
     public static void main(String args[])
     {
@@ -145,7 +145,26 @@
     }
 }*/
 
-
+//b.) reverse - 2nd method
+/*class Main {
+    static int sum=0;
+    public static int reverse(int n){
+        //Sometimes you might need some different variables in the arguments in that case, make another function
+    int digits=(int)(Math.log10(n))+1;//to find no. of digits in a no.
+        return helper(n,digits);
+    }
+    
+    public static int helper(int n,int digits)
+    {
+        if(n%10==n) return n;//means if it is a single digit number
+        int rem=n%10;
+        return rem*(int)Math.pow(10,digits-1)+helper(n/10,digits-1);
+    }
+    
+    public static void main(String[] args) {
+        System.out.print(reverse(1234));
+    }
+}*/
 
 
 
