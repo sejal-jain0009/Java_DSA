@@ -277,6 +277,24 @@
     }
 }*/
 
+//ques 17. linear search using arraylist
+/*import java.util.*;
+class Main {
+    public static void main(String[] args) {
+       int[] arr={1,4,6,7,4,8,4};
+       lastIndex(arr,4,arr.length-1);
+       System.out.print(list);
+    }
+    
+    static ArrayList<Integer> list = new ArrayList<>();
+    static void lastIndex(int[] arr, int target,int index)
+    {
+        if(index<0) return;
+        if(arr[index]==target) list.add(index);
+        lastIndex(arr,target,index-1);
+    }
+}*/
+
 
 
 
