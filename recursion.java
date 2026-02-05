@@ -127,6 +127,30 @@
     }
 }*/
 
+//ques 10:reverse a number - method 1
+/*class Main{
+    public static void main(String args[])
+    {
+        printn(1324);
+       System.out.print(sum);
+    }
+    
+    static int sum=0;
+    public static void printn(int n)
+    {
+        if(n==0) return;
+        int rem=n%10;
+        sum=sum*10+rem;
+        printn(n/10);
+    }
+}*/
+
+
+
+
+
+
+
 
 
 
