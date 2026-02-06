@@ -295,6 +295,7 @@ class Main {
     }
 }*/
 
+//ques 18: 
 
 
 
