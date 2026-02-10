@@ -311,5 +311,26 @@ class Main {
     }
 }*/
 
+//ques 20 : print all permutations of a string
+/*import java.util.*;
 
+class Main {
+    public static void permutation(String s, String combination) {
+        if (s.length() == 0) {
+            System.out.println(combination);
+            return;
+        }
 
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            String temp = s.substring(0, i) + s.substring(i + 1);
+            permutation(temp, combination + ch);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        permutation(s, "");
+    }
+}*/
