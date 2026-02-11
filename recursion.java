@@ -313,7 +313,6 @@ class Main {
 
 //ques 20 : print all permutations of a string
 /*import java.util.*;
-
 class Main {
     public static void permutation(String s, String combination) {
         if (s.length() == 0) {
@@ -332,5 +331,25 @@ class Main {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         permutation(s, "");
+    }
+}*/
+
+//ques 21 : print triangle
+/*class Main {
+    public static void main(String[] args) {
+        triangle(5,0);
+    }
+    public static void triangle(int row,int col)
+    {
+        if(row==0) return;
+        if(row>col)
+        {
+            System.out.print("*");
+            triangle(row,col+1);
+        }
+        else{
+            System.out.println();
+            triangle(row-1,0);
+        }
     }
 }*/
