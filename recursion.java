@@ -403,7 +403,7 @@ public static void backTrackingPermutation(StringBuilder sb,int start)
     }
 }*/
 
-//ques 23 : Buuble sort using recursion
+//ques 23 : Bubble sort using recursion
 /*import java.util.*;
 class Main {
     public static void main(String[] args) {
@@ -426,5 +426,33 @@ class Main {
         else{
             bubble(arr,row-1,0);
         }
+    }
+}*/
+
+//ques 24 : selection sort using recursion
+/*import java.util.*;
+class Main {
+    public static void main(String[] args) {
+       int[] arr={1,3,5,6,8,9};
+       System.out.println(Arrays.toString(arr));
+    }
+    
+    public static void selection(int[] arr,int start){
+       if(start==arr.length-1) return;//base condition
+       int min=start;
+       for(int i=start+1;i<arr.length;i++)
+       {
+           if(arr[min]>arr[i])
+           {
+               min=i;
+           }
+       }
+       
+       //swapping
+       int temp=arr[start];
+       arr[start]=arr[min];
+       arr[min]=temp;
+       
+       selection(arr,start+1);
     }
 }*/
