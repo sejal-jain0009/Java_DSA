@@ -353,3 +353,32 @@ class Main {
         }
     }
 }*/
+
+/*import java.util.*;
+public class recursion {
+    public static void swap(StringBuilder sb,int start,int i){
+        char temp=sb.charAt(start);
+        sb.setCharAt(start, sb.charAt(i));
+        sb.setCharAt(i, temp);
+    }
+public static void backTrackingPermutation(StringBuilder sb,int start)
+{
+    if(start==sb.length()-1) {
+        System.out.println(sb);
+        return;
+    }
+    for(int i=start;i<sb.length();i++)
+    {
+        swap(sb,start,i);
+        backTrackingPermutation(sb,start+1);
+        swap(sb,start,i); // backtrack
+    }
+}
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine();
+        backTrackingPermutation(new StringBuilder(s),0);
+        sc.close();
+    }
+    
+}*/
