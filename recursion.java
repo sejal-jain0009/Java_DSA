@@ -457,7 +457,7 @@ class Main {
     }
 }*/
 
-//ques 24 : merge sort using recursion
+//ques 25 : merge sort using recursion
 /*import java.util.*;
 class Main {
     public static void main(String[] args) {
@@ -470,11 +470,8 @@ class Main {
        if(arr.length==1) return arr;
        
        int mid=arr.length/2;
-       int[] left= Arrays.copyOfRange(arr,0,mid);
-       int[] right= Arrays.copyOfRange(arr,mid,arr.length);
-       
-       left=mergeSort(left);
-       right=mergeSort(right);
+       int[] left= mergeSort(Arrays.copyOfRange(arr,0,mid));
+       int[] right= mergeSort(Arrays.copyOfRange(arr,mid,arr.length));
        return merge(left,right);
     }
     
@@ -519,3 +516,64 @@ class Main {
         return mix;
     }
 }*/
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+       int[] arr={8,3,4,12,5,6};
+       mergeSortInPlace(arr,0,arr.length-1);
+       System.out.print(Arrays.toString(arr));
+    }
+    
+    public static void mergeSortInPlace(int[] arr,int s,int e){
+       if(s>=e) return;
+       int mid=s+(e-s)/2;
+       
+       mergeSortInPlace(arr,s,mid);
+       mergeSortInPlace(arr,mid+1,e);
+       merge(arr,s,mid,e);
+    }
+    
+    public static void merge(int[] arr,int s,int mid,int e)
+    {
+        int[] mix=new int[e-s+1];
+        int i=s;
+        int j=mid+1;
+        int k=0;
+        while(i<=mid && j<=e)
+        {
+            if(arr[i]<arr[j])
+            {
+                mix[k]=arr[i];
+                i++;
+            }
+            else {
+                mix[k]=arr[j];
+                j++;
+            }
+            k++;
+        }
+        
+        //It may be possible that one of array will reach till end and elements of other arrays  are not inserted in mix array completely
+        
+        while(i<=mid)
+        {
+            mix[k]=arr[i];
+            i++;
+            k++;
+        }
+        
+        while(j<=e)
+        {
+            mix[k]=arr[j];
+            j++;
+            k++;
+        }
+        
+        //either one of the above loop will be true
+        for(int l=0;l<mix.length;l++)
+        {
+            arr[s+l]=mix[l];
+        }
+    }
+}       
