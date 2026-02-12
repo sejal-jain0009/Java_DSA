@@ -334,7 +334,7 @@ class Main {
     }
 }*/
 
-//ques 21 : print triangle
+//ques 21 : print Inverted triangle
 /*class Main {
     public static void main(String[] args) {
         triangle(5,0);
@@ -381,4 +381,24 @@ public static void backTrackingPermutation(StringBuilder sb,int start)
         sc.close();
     }
     
+}*/
+
+//ques 22 : triangle
+/*class Main {
+    public static void main(String[] args) {
+        triangle(5,0);
+    }
+    public static void triangle(int row,int col)
+    {
+        if(row==0) return;
+        if(row>col)
+        {
+            triangle(row,col+1);
+            System.out.print("*");  
+        }
+        else{
+            triangle(row-1,0);
+            System.out.println();
+        }
+    }
 }*/
