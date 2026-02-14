@@ -517,7 +517,8 @@ class Main {
     }
 }*/
 
-import java.util.*;
+//ques 26 : merge sort in place
+/*import java.util.*;
 class Main {
     public static void main(String[] args) {
        int[] arr={8,3,4,12,5,6};
@@ -553,7 +554,6 @@ class Main {
             }
             k++;
         }
-        
         //It may be possible that one of array will reach till end and elements of other arrays  are not inserted in mix array completely
         
         while(i<=mid)
@@ -569,11 +569,51 @@ class Main {
             j++;
             k++;
         }
-        
         //either one of the above loop will be true
+
         for(int l=0;l<mix.length;l++)
         {
             arr[s+l]=mix[l];
         }
     }
-}       
+} */     
+
+//ques 27 : quick sort using recursion
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        int[] arr={5,4,3,2,1};
+        sort(arr,0,arr.length-1);
+        System.out.println(Arrays.toString(arr));
+    }
+    
+    public static void sort(int[] arr,int low,int high){
+        if(low>=high) return;
+        
+        int s=low;
+        int e=high;
+        int mid=s+(e-s)/2;
+        int pivot=arr[mid];
+        
+        while(s<=e){
+            while(arr[s]<pivot){
+                s++;
+            }
+            
+            while(arr[e]>pivot){
+                e--;
+            }
+            if(s<=e){
+                int temp=arr[s];
+                arr[s]=arr[e];
+                arr[e]=temp;
+                s++;
+                e--;
+            }
+                
+        }
+        sort(arr,low,e);
+        sort(arr,s,high);
+    }
+    
+}
