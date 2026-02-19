@@ -579,7 +579,7 @@ class Main {
 } */     
 
 //ques 27 : quick sort using recursion
-import java.util.*;
+/*import java.util.*;
 class Main {
     public static void main(String[] args) {
         int[] arr={5,4,3,2,1};
@@ -603,7 +603,7 @@ class Main {
             while(arr[e]>pivot){
                 e--;
             }
-            if(s<=e){
+            if(s<=e){ //agr pivot shi position pr na ho toh swap krdo
                 int temp=arr[s];
                 arr[s]=arr[e];
                 arr[e]=temp;
@@ -612,8 +612,7 @@ class Main {
             }
                 
         }
-        sort(arr,low,e);
-        sort(arr,s,high);
+        sort(arr,low,e); //pivot ke left side sort krna hai
+        sort(arr,s,high);//pivot ke right side sort krna hai
     }
-    
-}
+}*/
