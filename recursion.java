@@ -311,6 +311,8 @@ class Main {
     }
 }*/
 
+
+
 //ques 20 : print all permutations of a string
 /*import java.util.*;
 class Main {
