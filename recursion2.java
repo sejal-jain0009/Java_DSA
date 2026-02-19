@@ -51,6 +51,24 @@ class Main {
      }
 }*/
 
+//ques - skip app but not apple from string
+/*import java.util.*;
+class Main{
+    public static void main(String args[]){
+        System.out.println(skipAppNotApple("bdapplefgapp"));
+        System.out.println(skipAppNotApple("bcdappdee"));
+    }
+    public static String skipAppNotApple(String Original){
+        if(Original.isEmpty()) return "";
+        char ch=Original.charAt(0);
+        if(Original.startsWith("app") && !Original.startsWith("apple")) {
+            return skipAppNotApple(Original.substring(3));
+        }
+        else return ch+skipAppNotApple(Original.substring(1));
+    }
+}*/
+
+
 
 
 
