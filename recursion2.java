@@ -114,4 +114,11 @@ public class Main
 	}
 }*/
 
-
+//ques  - to find asii value of a character
+import java.util.*;
+class Main{
+    public static void main(String[] args){
+        char ch = 'a';
+        System.out.println(ch+0);
+    }
+}
