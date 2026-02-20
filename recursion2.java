@@ -89,5 +89,29 @@ public class Main
 	}
 }*/
 
+//ques - find subset of string using arrayList
+/*import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println((subseqlist("","abc")));
+	}
+	
+	public static ArrayList<String> subseqlist(String subset,String Original)
+	{
+	    if(Original.isEmpty()){
+	        ArrayList<String> list=new ArrayList<>();
+	        list.add(subset);
+	        return list;
+	    }
+	    
+	    char ch=Original.charAt(0);
+	    ArrayList<String> left = subseqlist(subset+ch,Original.substring(1));//ehde ch add kr re a te Original update kr re a
+	    ArrayList<String> right= subseqlist(subset,Original.substring(1));//ehde ch ignore kr re a te orignal update
+	    
+	    left.addAll(right);
+	    return left;
+	}
+}*/
 
 
