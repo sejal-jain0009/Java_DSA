@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 //ques1. - print factorial
 /*public class testQuestions {
     public static int factorial(int n){
@@ -27,7 +27,7 @@ import java.util.*;
 }*/
 
 //ques3. fibonacci series
-class Main{
+/*class Main{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int n=sc.nextInt();
@@ -38,4 +38,4 @@ class Main{
         if(n==1) return 1;
         return fib(n-1)+fib(n-2);
     }
-}
+}*/

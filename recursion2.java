@@ -70,7 +70,7 @@ class Main{
 
 //ques - find subset of string
 /*import java.util.*;
-public class Main
+class Main
 {
 	public static void main(String[] args) {
 		subseq("","abc");
@@ -91,7 +91,7 @@ public class Main
 
 //ques - find subset of string using arrayList
 /*import java.util.*;
-public class Main
+class Main
 {
 	public static void main(String[] args) {
 		System.out.println((subseqlist("","abc")));
@@ -115,10 +115,31 @@ public class Main
 }*/
 
 //ques  - to find asii value of a character
-import java.util.*;
+/*import java.util.*;
 class Main{
     public static void main(String[] args){
         char ch = 'a';
         System.out.println(ch+0);
     }
-}
+}*/
+
+//ques - to find subset of string with ascii value
+/*import java.util.*;
+public class recursion2
+{
+	public static void main(String[] args) {
+		subseq("","abc");
+	}
+	
+	public static void subseq(String subset,String Original)
+	{
+	    if(Original.isEmpty()){
+	        System.out.println(subset);
+	        return;
+	    }
+	    
+	    char ch=Original.charAt(0);
+	    subseq((ch+0)+subset+ch,Original.substring(1));//ehde ch add kr re a te Original update kr re a
+	    subseq(subset,Original.substring(1));//ehde ch ignore kr re a te orignal update
+	}
+}*/
