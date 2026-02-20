@@ -68,7 +68,26 @@ class Main{
     }
 }*/
 
-
+//ques - find subset of string
+/*import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		subseq("","abc");
+	}
+	
+	public static void subseq(String subset,String Original)
+	{
+	    if(Original.isEmpty()){
+	        System.out.println(subset);
+	        return;
+	    }
+	    
+	    char ch=Original.charAt(0);
+	    subseq(subset+ch,Original.substring(1));//ehde ch add kr re a te Original update kr re a
+	    subseq(subset,Original.substring(1));//ehde ch ignore kr re a te orignal update
+	}
+}*/
 
 
 
