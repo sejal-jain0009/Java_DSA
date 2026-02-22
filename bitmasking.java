@@ -23,3 +23,16 @@
 		System.out.println(5>>1);//right - divide by 2
 	}
 }*/
+
+//ques - applications of bitmasking
+//check ith bit
+/*public class Main
+{
+	public static void main(String[] args) {
+		int n=5; //0101
+		int i=3;
+		if((n &(1<<i))!=0) System.out.println("Bit is On");
+		else System.out.println("Bit is off");
+		
+	}
+}*/
