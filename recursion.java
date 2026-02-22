@@ -578,7 +578,7 @@ class Main {
             arr[s+l]=mix[l];
         }
     }
-} */     
+} */   
 
 //ques 27 : quick sort using recursion
 /*import java.util.*;
@@ -587,8 +587,7 @@ class Main {
         int[] arr={5,4,3,2,1};
         sort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
-    }
-    
+    } 
     public static void sort(int[] arr,int low,int high){
         if(low>=high) return;
         
@@ -605,7 +604,10 @@ class Main {
             while(arr[e]>pivot){
                 e--;
             }
-            if(s<=e){ //agr pivot shi position pr na ho toh swap krdo
+            if(s<=e){   
+                //agr pivot shi position pr na ho toh swap krdo
+                //Kyuki jab tak s aur e cross nahi hue tab tak swapping possible hai.
+                //and wo dono mein se koi bhi while condition ko satisfy ni  kr paate
                 int temp=arr[s];
                 arr[s]=arr[e];
                 arr[e]=temp;
