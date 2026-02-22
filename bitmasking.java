@@ -83,3 +83,18 @@
 	}
 }*/
 
+//ques - find missing number in array
+/*class Main{
+    public static void main(String[] args){
+        int n=5;//length of array
+        int[] arr={0,1,3,4,5};//start from 0 to n but 2 is missing
+        int ans=0;
+        for(int i=0;i<=n;i++){
+            ans^=i;
+        }
+        for(int num:arr){
+            ans^=num;
+        }
+        System.out.print(ans);
+    }
+}*/
