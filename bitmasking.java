@@ -47,3 +47,14 @@
 		System.out.println(n);
 	}
 }*/
+
+//Clear ith bit
+/*class Main
+{
+	public static void main(String[] args) {
+		int n=5; //0101
+		int i=2;
+		n=n& ~(1<<i);//0001
+		System.out.println(n);
+	}
+}*/
