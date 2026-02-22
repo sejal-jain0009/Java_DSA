@@ -58,3 +58,14 @@
 		System.out.println(n);
 	}
 }*/
+
+//toogle ith bit
+/*class Main
+{
+	public static void main(String[] args) {
+		int n=5; //0101
+		int i=3;
+		n=n^(1<<i);//1101
+		System.out.println(n);
+	}
+}*/
