@@ -59,7 +59,7 @@
 	}
 }*/
 
-//toogle ith bit
+//toggle ith bit
 /*class Main
 {
 	public static void main(String[] args) {
@@ -69,3 +69,17 @@
 		System.out.println(n);
 	}
 }*/
+
+//ques - find unique element
+/*class Main
+{
+	public static void main(String[] args) {
+	    int[] arr={1,2,3,4,3,5,2,5,1};
+	    int ans=0;
+	    for(int num:arr){
+	        ans^=num;
+	    }
+	    System.out.println(ans);
+	}
+}*/
+
