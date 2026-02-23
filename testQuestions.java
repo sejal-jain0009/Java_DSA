@@ -131,3 +131,33 @@ class testQuestions
 		e2.Area();
 	}
 }*/
+
+//question -Create: Class Animal,Class Dog extends Animal and Add methods and test inheritance
+/* 
+   class Animal{ //parent class
+    void Eat()
+    {
+        System.out.println("Animal is eating");
+    }
+    
+    void drink(){
+        System.out.println("Animal is drinking");
+    }
+}
+
+class Dog extends Animal{//child class
+    void bark(){
+        System.out.println("Dog is barking");
+    }
+}
+
+class testQuestions
+{
+	public static void main(String[] args) {
+		Dog d1=new Dog();
+		d1.Eat();//d1 calls parent class 
+		d1.drink();
+		
+		d1.bark();//calls child class
+	}
+}*/
