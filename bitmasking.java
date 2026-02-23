@@ -26,7 +26,7 @@
 
 //ques - applications of bitmasking
 //check ith bit
-/*public class Main
+/*class Main
 {
 	public static void main(String[] args) {
 		int n=5; //0101

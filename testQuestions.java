@@ -39,3 +39,33 @@
         return fib(n-1)+fib(n-2);
     }
 }*/
+
+//question - Create a Student class with: name, rollNo,Constructor, Method display() ,Create 2 objects and print their details.
+/*class Student{
+    String name;
+    int rollno;
+    
+    Student(String name,int rollno)
+    {
+        this.name=name;
+        this.rollno=rollno;
+    }
+    
+    void display()
+    {
+        System.out.println("Name is : "+name);
+        System.out.println("Rollno. is : "+rollno);
+        System.out.println("----------------------------");
+    }
+}
+class testQuestions
+{
+	public static void main(String[] args) {
+		Student s1=new Student("sejal",1519);
+		s1.display();
+		
+		Student s2=new Student("srishti",1542);
+		s2.display();
+	}
+}*/
+
