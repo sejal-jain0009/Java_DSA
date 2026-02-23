@@ -246,3 +246,37 @@ class testQuestions
 	}
 }
 */
+
+//ques - Create a class with:final variable,final method and Show that overriding is not allowed
+/*
+class Parent {
+    final int x = 10;   // final variable
+
+    final void show() {   // final method
+        System.out.println("This is a final method.");
+    }
+}
+
+// Child Class
+class Child extends Parent {
+
+    // ❌ This will give error (Cannot override final method)
+    
+    //void show() {
+    //    System.out.println("Trying to override");
+    //}
+
+    void display() {
+        // x = 20;  ❌ Error (Cannot change final variable)
+        System.out.println("Value of x: " + x);
+    }
+}
+
+class testQuestions {
+    public static void main(String[] args) {
+        Child c = new Child();
+        c.show();
+        c.display();
+    }
+}
+*/
