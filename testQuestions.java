@@ -211,4 +211,38 @@ class testQuestions
 		Animal a=new Cat(); //tn ehde ch display function cat ala call houga
 		a.display();
 	}
-}*/
+}
+*/
+
+//question - Create parent class Person and child class Student and Use super to call parent constructor.
+
+  /* class parent{ //parent class
+   String name;
+   parent(String name){
+       this.name=name;
+       System.out.println("call for parent class");
+   }
+}
+
+class child extends parent{ //child class
+    int roll;
+    child(String name,int roll){
+        super(name);
+        this.roll=roll;
+        System.out.println("call for child class");
+    }
+    
+    void display(){
+        System.out.println("name is : "+name);
+        System.out.println("roll is :"+roll);
+    }
+}
+
+class testQuestions
+{
+	public static void main(String[] args) {
+	    child c = new child("sejal",1519);//phla parent nu call fir child fir display function
+	    //c.display();- agr ehnu print na kraiye then call for parent and child class hi print houga 
+	}
+}
+*/
