@@ -189,4 +189,26 @@ class testQuestions
     }
 }*/
 
+//question - Use runtime polymorphism with Animal and Cat
+/* 
+   class Animal{ //parent class
+    void display()
+    {
+        System.out.println("animal is displayed");
+    }
+}
 
+class Cat extends Animal{ //child class
+    @Override 
+    void display(){
+        System.out.println("cat is displayed");
+    }
+}
+
+class testQuestions
+{
+	public static void main(String[] args) {
+		Animal a=new Cat(); //tn ehde ch display function cat ala call houga
+		a.display();
+	}
+}*/
