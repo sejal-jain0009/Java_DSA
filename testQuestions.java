@@ -69,3 +69,34 @@ class testQuestions
 	}
 }*/
 
+//question - Create a class Employee with: name,salary,static variable company -All employees belong to same companys 
+/*    class Employee{
+    String name;
+    int salary;
+    static String company ="Apple";//common for all
+    
+    Employee(String name,int salary)
+    {
+        this.name=name;
+        this.salary=salary;
+    }
+    
+    void display()
+    {
+        System.out.println("Name is : "+name);
+        System.out.println("Rollno. is : "+salary);
+        System.out.println("Company is : "+company);
+        System.out.println("----------------------------");
+    }
+}
+class testQuestions
+{
+	public static void main(String[] args) {
+		Employee e1=new Employee("sejal",50000);
+		e1.display();
+		
+		Employee e2=new Employee("srishti",60000);
+		e2.display();
+	}
+}*/
+
