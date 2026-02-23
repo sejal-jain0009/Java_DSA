@@ -100,3 +100,34 @@ class testQuestions
 	}
 }*/
 
+//question -Create a class Rectangle: Constructor with no parameters, Constructor with length & breadth, Method area()
+ /*  class Rectangle{
+    int l;
+    int b;
+    
+    Rectangle()
+    {
+        l=2;
+        b=4;
+    }
+    
+    Rectangle(int l,int b)
+    {
+        this.l=l;
+        this.b=b;
+    }
+    void Area()
+    {
+        System.out.println(l*b);
+    }
+}
+class testQuestions
+{
+	public static void main(String[] args) {
+		Rectangle e1=new Rectangle();
+		e1.Area();
+		
+		Rectangle e2=new Rectangle(8,9);
+		e2.Area();
+	}
+}*/
