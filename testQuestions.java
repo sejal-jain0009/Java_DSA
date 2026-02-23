@@ -308,3 +308,52 @@ public class Main {
         c1.m3();
     }
 }*/
+
+// Parent Class
+class Shape {
+    void area() {
+        System.out.println("Area method of Shape");
+    }
+}
+
+// Child Class 1
+class Circle extends Shape {
+    double radius;
+
+    Circle(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    void area() {
+        System.out.println("Area of Circle: " + (3.14 * radius * radius));
+    }
+}
+
+//ques - Create:Class Shape with method area() and Subclasses Circle and Rectangle, Use runtime polymorphism
+// Child Class 2
+/*class Rectangle extends Shape {
+    double length, breadth;
+
+    Rectangle(double length, double breadth) {
+        this.length = length;
+        this.breadth = breadth;
+    }
+
+    @Override
+    void area() {
+        System.out.println("Area of Rectangle: " + (length * breadth));
+    }
+}
+
+class testQuestions {
+    public static void main(String[] args) {
+
+        // Runtime Polymorphism
+        Shape s1 = new Circle(5);
+        Shape s2 = new Rectangle(4, 6);
+
+        s1.area();   // Calls Circle's area()
+        s2.area();   // Calls Rectangle's area()
+    }
+}*/
