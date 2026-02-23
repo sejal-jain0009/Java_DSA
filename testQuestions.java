@@ -161,3 +161,32 @@ class testQuestions
 		d1.bark();//calls child class
 	}
 }*/
+
+//question - Create class Vehicle with method start() and Create subclass Car that overrides it.
+/* 
+   class Vehicle{ //parent class
+    void start()
+    {
+        System.out.println("Vechile is going to start");
+    }
+}
+
+class Car extends Vehicle{ //child class
+    @Override //means method and parameter same hai je othe start c ethe v hou te j ohde ch koi parameter na pass hoia ethe v ni hona
+    void start(){
+        System.out.println("Car is going to start");
+    }
+}
+
+class testQuestions
+{
+	public static void main(String[] args) {
+		Vehicle v=new Vehicle();
+		v.start();
+		
+		Car c=new Car();
+		c.start();
+    }
+}*/
+
+
