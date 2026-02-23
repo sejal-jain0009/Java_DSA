@@ -280,3 +280,31 @@ class testQuestions {
     }
 }
 */
+
+//ques - Create: Class A then Class B extends then Class C extends B and Call methods from all levels.
+/*class A {
+    void m1(){
+        System.out.println("this is method of A");
+    }
+}
+
+class B extends A{
+    void m2(){
+        System.out.println("this is method of B");
+    }
+} 
+
+class C extends B{
+    void m3(){
+        System.out.println("this is method of C");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        C c1=new C();
+        c1.m1();
+        c1.m2();
+        c1.m3();
+    }
+}*/
