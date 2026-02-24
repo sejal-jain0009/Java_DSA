@@ -108,7 +108,7 @@ import java.util.*;
 //decimal to binary = decimaltobinary(n/2)*10+(n%2);
 
 //ques - print all strings of bit
-class Main{
+/*class Main{
     public static void main(String args[]){
         int n=5;//00101
         printBits(n,"");
@@ -123,7 +123,7 @@ class Main{
         printBits(n-1,ans+"1");
 
     }
-}
+}*/
 
 //question - Create a Student class with: name, rollNo,Constructor, Method display() ,Create 2 objects and print their details.
 /*class Student{
