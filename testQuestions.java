@@ -43,6 +43,23 @@ import java.util.*;
     }
 }*/
 
+//ques - missing element in array
+/*class Main{
+    public static void main(String args[]){
+        int n=5;
+        int[] arr={0,1,3,4,5};
+        int ans=0;
+        for(int i=0;i<=n;i++)
+        {
+            ans^=i;
+        }
+        for(int num:arr){
+            ans^=num;
+        }
+        System.out.println(ans);
+    }
+}*/
+
 
 
 
