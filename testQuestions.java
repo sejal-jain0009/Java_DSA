@@ -78,6 +78,19 @@ import java.util.*;
     }
 }*/
 
+//ques - add first and last digit of a number
+/*class Main{
+    public static void main(String args[]){
+        int n=12345;
+        int last=n%10; //5
+        while(n>=10){
+            n=n/10;
+        }
+        int first=n;
+        System.out.println(first+last);
+    }
+}*/
+
 
 
 
