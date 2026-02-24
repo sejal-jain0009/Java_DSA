@@ -105,6 +105,7 @@ import java.util.*;
     }
 }*/
 
+//decimal to binary = decimaltobinary(n/2)*10+(n%2);
 
 //question - Create a Student class with: name, rollNo,Constructor, Method display() ,Create 2 objects and print their details.
 /*class Student{
