@@ -60,6 +60,23 @@ import java.util.*;
     }
 }*/
 
+//ques - set ith bit
+/*class Main{
+    public static void main(String args[]){
+        int n=6; //0110
+        int i=3;
+        n=n|(1<<i);//1110
+        System.out.println(n);
+    }
+}*/
+
+//ques - right most set bit of a number
+/*class Main{
+    public static void main(String args[]){
+        int n=5;//0101
+        System.out.println(n & (-n)); //0101 & 1011 = 0001
+    }
+}*/
 
 
 
