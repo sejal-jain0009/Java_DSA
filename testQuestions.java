@@ -91,7 +91,19 @@ import java.util.*;
     }
 }*/
 
-
+//ques - power base question
+/*class Main{
+    public static void main(String args[]){
+        System.out.println(power(2,5));
+    }
+    static int power(int x,int y){
+        if(y==0) return 1;
+        if(y<0) return -1;
+        int half=power(x,y/2);
+        if(y%2==0) return half*half;
+        return half*half*x;
+    }
+}*/
 
 
 //question - Create a Student class with: name, rollNo,Constructor, Method display() ,Create 2 objects and print their details.
