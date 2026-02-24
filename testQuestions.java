@@ -1,4 +1,5 @@
-//import java.util.*;
+//FA1
+import java.util.*;
 //ques1. - print factorial
 /*public class testQuestions {
     public static int factorial(int n){
@@ -31,7 +32,9 @@
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int n=sc.nextInt();
-        System.out.println(fib(n));
+        for(int i=0;i<n;i++){
+            System.out.print(fib(i)+" ");
+        }
     }
     public static int fib(int n){
         if(n==0) return 0;
@@ -39,6 +42,10 @@
         return fib(n-1)+fib(n-2);
     }
 }*/
+
+
+
+
 
 //question - Create a Student class with: name, rollNo,Constructor, Method display() ,Create 2 objects and print their details.
 /*class Student{
@@ -307,7 +314,7 @@ public class Main {
         c1.m2();
         c1.m3();
     }
-}*/
+}
 
 // Parent Class
 class Shape {
@@ -328,7 +335,7 @@ class Circle extends Shape {
     void area() {
         System.out.println("Area of Circle: " + (3.14 * radius * radius));
     }
-}
+}*/
 
 //ques - Create:Class Shape with method area() and Subclasses Circle and Rectangle, Use runtime polymorphism
 // Child Class 2
