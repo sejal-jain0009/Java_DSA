@@ -61,3 +61,26 @@ public class oops
 	}
 }*/
 
+//ques - example of parameterized constructor
+/*class Student{
+    String name;
+    int rollno;
+    
+    Student(String n,int r){ //this is constructor
+    name=n;
+    rollno=r;
+    }
+    
+    void display(){
+        System.out.println(name);
+        System.out.println(rollno);
+    }
+}
+public class oops
+{
+	public static void main(String[] args) {
+		Student s1=new Student("unknown",1519);
+		s1.display();
+	}
+}*/
+
