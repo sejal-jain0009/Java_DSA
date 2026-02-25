@@ -37,3 +37,27 @@ public class Main
 		c2.display();
 	}
 }*/
+
+//simple constructor example
+/*class Student{
+    String name;
+    int rollno;
+    
+    Student(){ //this is constructor
+    name="unknown";
+    rollno=1519;
+    }
+    
+    void display(){
+        System.out.println(name);
+        System.out.println(rollno);
+    }
+}
+public class oops
+{
+	public static void main(String[] args) {
+		Student s1=new Student();
+		s1.display();
+	}
+}*/
+
