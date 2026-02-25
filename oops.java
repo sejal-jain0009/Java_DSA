@@ -84,3 +84,32 @@ public class oops
 	}
 }*/
 
+//ques - constructor overloading 
+/*class Student{
+    String name;
+    int rollno;
+    
+    Student(){
+        name="sejal";
+        rollno=3424;
+    }
+    Student(String n,int r){ //this is constructor
+    name=n;
+    rollno=r;
+    }
+    
+    void display(){
+        System.out.println(name);
+        System.out.println(rollno);
+    }
+}
+public class oops
+{
+	public static void main(String[] args) {
+	    Student s1=new Student();
+	    s1.display();
+		Student s2=new Student("unknown",1519);
+		s2.display();
+	}
+}*/
+
