@@ -113,6 +113,19 @@ public class oops
 	}
 }*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+//practice questions on OOPS
 //question - Create a Student class with: name, rollNo,Constructor, Method display() ,Create 2 objects and print their details.
 /*class Student{
     String name;
@@ -430,3 +443,33 @@ class testQuestions {
         s2.area();   // Calls Rectangle's area()
     }
 }*/
+
+//ques - create a class using parameterized constructor and create 2 objects and print details
+/*class Student{
+    int rollno;
+    String name;
+    int marks;
+    
+    Student(int rollno,String name,int marks){
+        this.rollno=rollno;
+        this.name=name;
+        this.marks=marks;
+    }
+    void display(){
+        System.out.println("Name: "+name);
+        System.out.println("Rollno.: "+rollno);
+        System.out.println("Marks: "+marks);
+        System.out.println("------------------");
+    }
+    
+}
+public class oops
+{
+	public static void main(String[] args) {
+		Student s1=new Student(1510,"abc",480);
+		s1.display();
+		Student s2=new Student(1511,"xyz",500);
+		s2.display();
+	}
+}*/
+
