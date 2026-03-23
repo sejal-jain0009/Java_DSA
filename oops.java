@@ -1,5 +1,7 @@
 //ques - syntax of class
-/*class Student{ 
+class Student{ 
+    String name;
+    int rollno;
     void display(){
         System.out.println("Name is : "+name+"\nRollno. is : "+rollno);
     }
@@ -12,7 +14,7 @@ public class oops
         s1.rollno=101;
 		s1.display();
 	}
-}*/
+}
 
 //ques - Create a class Car with: brand and price and method display() Then create 2 objects.
 /*class Car{
@@ -144,7 +146,7 @@ public class oops
         System.out.println("----------------------------");
     }
 }
-class testQuestions
+class oops
 {
 	public static void main(String[] args) {
 		Student s1=new Student("sejal",1519);
@@ -175,7 +177,7 @@ class testQuestions
         System.out.println("----------------------------");
     }
 }
-class testQuestions
+class oops
 {
 	public static void main(String[] args) {
 		Employee e1=new Employee("sejal",50000);
@@ -207,7 +209,7 @@ class testQuestions
         System.out.println(l*b);
     }
 }
-class testQuestions
+class oops
 {
 	public static void main(String[] args) {
 		Rectangle e1=new Rectangle();
@@ -237,7 +239,7 @@ class Dog extends Animal{//child class
     }
 }
 
-class testQuestions
+class oops
 {
 	public static void main(String[] args) {
 		Dog d1=new Dog();
@@ -264,7 +266,7 @@ class Car extends Vehicle{ //child class
     }
 }
 
-class testQuestions
+class oops
 {
 	public static void main(String[] args) {
 		Vehicle v=new Vehicle();
@@ -291,7 +293,7 @@ class Cat extends Animal{ //child class
     }
 }
 
-class testQuestions
+class oops
 {
 	public static void main(String[] args) {
 		Animal a=new Cat(); //tn ehde ch display function cat ala call houga
@@ -324,7 +326,7 @@ class child extends parent{ //child class
     }
 }
 
-class testQuestions
+class oops
 {
 	public static void main(String[] args) {
 	    child c = new child("sejal",1519);//phla parent nu call fir child fir display function
@@ -358,7 +360,7 @@ class Child extends Parent {
     }
 }
 
-class testQuestions {
+class oops {
     public static void main(String[] args) {
         Child c = new Child();
         c.show();
@@ -432,7 +434,7 @@ class Circle extends Shape {
     }
 }
 
-class testQuestions {
+class oops {
     public static void main(String[] args) {
 
         // Runtime Polymorphism
